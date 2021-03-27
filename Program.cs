@@ -49,9 +49,13 @@ namespace WeLoveCoding
                         numberOfBox3 = numberOfBox3 - numberOut;
                     }
                 }
+                else if (chooseBox > 3 || chooseBox < 1)
+                {
+                    Console.WriteLine("Box {0} not found!!!",chooseBox);
+                }
                 else
                 {
-                    Console.WriteLine("{0} is too much!!!! Please try again.");
+                    Console.WriteLine("{0} is too much!!!! Please try again.",numberOut);
                 }
             }
             Console.WriteLine("The Winner is {0}", player);
