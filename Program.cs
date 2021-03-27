@@ -12,7 +12,7 @@ namespace WeLoveCoding
 
             string player ="A";
             int turn = 0;
-            bool checkNegative = false;
+            
 
 
             while(numberOfBox1 >0 || numberOfBox2 >0 || numberOfBox3 > 0)
